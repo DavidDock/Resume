@@ -76,7 +76,7 @@ header {
     background: url(../images/david.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 20% 0;
+    background-position: 0 20%;
     min-height: 33vh;
     transition: all.5s ease-in-out;
     -moz-transition: all.5s ease-in-out;
@@ -163,7 +163,7 @@ header {
 /*------ footer */
 
 footer {
-    background-color: #525252;
+    background-color: #757171;
     color: #fafafa;
     min-height: 11vh;
     margin: 0;
