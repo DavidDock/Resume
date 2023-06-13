@@ -3,7 +3,7 @@
 /*------ colors */
 
 .bg-color-name-title {
-    background-color: #d6d5d5;
+    background-color: #757171;
 }
 
 .bg-color-three-reasons {
@@ -11,7 +11,7 @@
 }
 
 .ui-menu-color-home {
-    background-color: #9ef085;
+    background-color: #f8a064;
 }
 
 .ui-menu-color-resume {
@@ -23,7 +23,7 @@
 }
 
 .ui-menu-color-download {
-    background-color: #757171;
+    background-color: #9ef085;
 }
 
 /*------ special padding/margin/text */
@@ -74,9 +74,9 @@ header {
 
 .logo {
     background: url(../images/david.jpg);
-    background-position: 40% 30%;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 20% 0;
     min-height: 33vh;
     transition: all.5s ease-in-out;
     -moz-transition: all.5s ease-in-out;
@@ -88,7 +88,7 @@ header {
     font-weight: 300;
     font-size: 2rem;
     margin-top: 2.25rem;
-    color: #000000;
+    color: #ffffff;
     padding: 0 1rem;
 }
 
@@ -98,7 +98,7 @@ header {
     font-size: 1.5rem;
     margin-top: 1rem;
     margin-bottom: 2.25rem;
-    color: #000000;
+    color: #ffffff;
     padding: 0 1rem;
 }
 
@@ -181,7 +181,7 @@ footer {
     }
         
 .cv-pdf i:hover {
-        color: #fc733c;
+        color: #f8a064;
     }
 
 .social-links {
@@ -206,9 +206,20 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #fc733c;
+    background: #f8a064;
 }
 
 #footer-details {
     padding: 1.5rem;
+}
+
+/*------ three reasons */
+
+.three-reasons-icon {
+    font-size: 1.5rem;
+    color: #f8a064;
+}
+
+.three-reasons-heading {
+    margin-bottom: 1rem;
 }
