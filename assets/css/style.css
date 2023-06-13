@@ -3,23 +3,27 @@
 /*------ colors */
 
 .bg-color-name-title {
-    background-color: #676767;
+    background-color: #d6d5d5;
+}
+
+.bg-color-three-reasons {
+    background-color: #ffffff;
 }
 
 .ui-menu-color-home {
-    background-color: #e67e22;
+    background-color: #9ef085;
 }
 
 .ui-menu-color-resume {
-    background-color: #9b59b6;
+    background-color: #cc90e4;
 }
 
 .ui-menu-color-contact {
-    background-color: #3498db;
+    background-color: #73bdee;
 }
 
 .ui-menu-color-download {
-    background-color: #525252;
+    background-color: #757171;
 }
 
 /*------ special padding/margin/text */
@@ -45,6 +49,23 @@ h4 {
     display: inline-block;
 }
 
+.row-table {
+    display:table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 2rem 2rem;
+    float: none;
+
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
 /*------ header */
 
 header {
@@ -68,19 +89,19 @@ header {
 
 .name {
     font-family: "Exo", sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 2rem;
     margin-top: 2.25rem;
-    color: #ffffff;
+    color: #000000;
 }
 
 .title {
     font-family: "Roboto", sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 1.5rem;
     margin-top: 1rem;
     margin-bottom: 2.25rem;
-    color: #ffffff;
+    color: #000000;
 }
 
 .list-inline-item:not(:last-child) {
@@ -107,14 +128,16 @@ header {
     width: 100%;
     height: 33%;
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
 }
 
 .menuitem a i {
     padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     display: block;
-    color: #fafafa;
+    color: #ffffff;
     font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .menuitem span {
@@ -124,7 +147,7 @@ header {
     text-align: center;
     text-transform: uppercase;
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 2px;
 }
 
@@ -135,7 +158,7 @@ header {
 /*------ hover */
 
 .hvr-sweep-to-bottom:before {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.3);
     height: 100%;
 }
 
@@ -160,7 +183,7 @@ footer {
     }
         
 .cv-pdf i:hover {
-        color: #e84610;
+        color: #fc733c;
     }
 
 .social-links {
@@ -185,7 +208,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #e84610;
+    background: #fc733c;
 }
 
 #footer-details {
