@@ -41,6 +41,10 @@ h4 {
     color: #fafafa;
 }
 
+.inline-block {
+    display: inline-block;
+}
+
 /*------ header */
 
 header {
@@ -143,3 +147,47 @@ footer {
     min-height: 11vh;
     margin: 0;
     }
+
+.cv-pdf i {
+    font-size: 1rem;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 0.25rem;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    }
+        
+.cv-pdf i:hover {
+        color: #e84610;
+    }
+
+.social-links {
+    padding-bottom: 0.5rem;
+}    
+
+.social-links li a i {
+    width: 2rem;
+    height: 2rem;
+    padding-top: 0.75rem;
+    border-radius: 50%;
+    font-size: 1rem;
+    line-height: 0.25rem;
+    margin: 0 1rem 0 0;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    padding: 1.5rem;
+}
