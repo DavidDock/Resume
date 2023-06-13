@@ -72,10 +72,6 @@ header {
     margin: 0;
 }
 
-.heading {
-    margin-left: 50px;
-}
-
 .logo {
     background: url(../images/david.jpg);
     background-position: 40% 30%;
@@ -93,6 +89,7 @@ header {
     font-size: 2rem;
     margin-top: 2.25rem;
     color: #000000;
+    padding: 0 1rem;
 }
 
 .title {
@@ -102,6 +99,7 @@ header {
     margin-top: 1rem;
     margin-bottom: 2.25rem;
     color: #000000;
+    padding: 0 1rem;
 }
 
 .list-inline-item:not(:last-child) {
