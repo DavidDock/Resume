@@ -286,6 +286,10 @@ footer {
 
 /*------ skills */
 
+.key-skills h5 {
+    margin-top: 1rem;;
+}
+
 .value-skills {
     margin: 1rem 0;
 }
@@ -305,8 +309,6 @@ footer {
 }
 
 .key-skills p {
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
     padding: 1rem o;
     margin: 1rem 0;
 }
