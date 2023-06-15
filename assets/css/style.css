@@ -54,6 +54,10 @@
     background-color: #ff7070;
 }
 
+.bg-color-contact {
+    background-color: #fafafa;
+}
+
 /*------ special padding/margin/text */
 
 h1,
@@ -361,4 +365,35 @@ footer {
 
 .history-items {
     margin-bottom: 2rem;
+}
+
+/*------ contact form */
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.center-form {
+    padding-top: 0.5rem;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: #000000;
+    background-color: #73bdee;
+}
+
+/* ------------------------Media Queries */
+
+@media(min-width: 992px) {
+    .center-form {
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
