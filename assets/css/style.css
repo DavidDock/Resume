@@ -299,6 +299,7 @@ footer {
     flex-wrap: wrap;
     font-family: "Exo", sans-serif;
     font-weight: 600;
+    gap: 0.5rem;
     padding: 0.5rem;
 }
 
@@ -313,6 +314,3 @@ footer {
     margin: 1rem 0;
 }
 
-#margin {
-    margin: 0.5rem;
-}
