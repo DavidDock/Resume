@@ -30,12 +30,16 @@
     background-color: #f4f4f4;
 }
 
+.bg-color-work-history {
+    background-color: #cc90e4;
+}
+
 .color-languages {
     background-color: #f8a064;
 }
 
 .color-frameworks {
-    background-color: #cc90e4;
+    background-color: #f7ec5e;
 }
 
 .color-databases {
@@ -46,8 +50,8 @@
     background-color: #9ef085;
 }
 
-.color-tech {
-    background-color: red;
+.color-hosting {
+    background-color: #ff7070;
 }
 
 /*------ special padding/margin/text */
@@ -57,6 +61,10 @@ h2,
 h3,
 h4 {
     margin: 0;
+}
+
+.remove-padding {
+    padding-left: 0;
 }
 
 .uppercase {
@@ -84,6 +92,7 @@ h4 {
 
 }
 
+.history-heading,
 .section-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
@@ -314,3 +323,49 @@ footer {
     margin: 1rem 0;
 }
 
+/*------ skills */
+
+.history-heading {
+    margin: 1rem 0;
+}
+
+.timeline-item {
+    padding: 4rem 2rem 0rem 2rem;
+    position: relative;
+    color: #fafafa;
+    border-left: 0.15rem solid #000000;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 0.75rem;
+    height: 0.75rem;
+    display: block;
+    top: 2rem;
+    position: absolute;
+    left: -0.4rem;
+    border-radius: 12px;
+    content: '';
+    background: #000000;
+}
+
+.history-items {
+    margin-bottom: 2rem;
+}
