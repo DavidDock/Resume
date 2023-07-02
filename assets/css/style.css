@@ -26,6 +26,10 @@
     background-color: #9ef085;
 }
 
+.ui-menu-color-github {
+    background-color: #fd6b5b;
+}
+
 .bg-color-personal-info {
     background-color: rgba(223, 240, 252, 0.8);
 }
@@ -181,7 +185,7 @@ header {
     text-transform: uppercase;
     font-size: 1rem;
     font-weight: 400;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 #nav {
