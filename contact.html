@@ -11,6 +11,13 @@
         type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css">
     <title>David Docksey Contact Page</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("1jQbZWQ0HRnhVAqd9");
+        })();
+    </script>
 </head>
 
 <body>
@@ -56,9 +63,9 @@
             <div class="col">
                 <h3 class="contact-heading uppercase text-center">Want To Get In Contact?</h3>
                 <div class="center-form">
-                    <form>
+                    <form onsubmit="return sendMail(this);">
                         <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
-                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
+                        <input type="email" name="emailaddress" id="emailaddress" class="form-control" placeholder="Email" required />
                         <textarea rows="5" name="enquirysummary" id="enquirysummary" class="form-control"
                             placeholder="Enquiry Details" required></textarea>
                         <div class="form-row text-center">
@@ -108,8 +115,8 @@
     </footer>
 
     <!-- font awesome script-->
-
     <script src="https://kit.fontawesome.com/8ec5a08df0.js" crossorigin="anonymous"></script>
+    <script src="assets/js/sendEmail.js"></script>
 
 </body>
 
