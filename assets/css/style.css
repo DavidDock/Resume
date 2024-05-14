@@ -115,7 +115,7 @@ header {
     background: url(../images/david.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0 20%;
+    background-position: 20% 20%;
     min-height: 33vh;
     transition: all.5s ease-in-out;
     -moz-transition: all.5s ease-in-out;
