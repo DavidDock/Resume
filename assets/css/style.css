@@ -63,6 +63,9 @@
 }
 
 /*------ special padding/margin/text */
+body {
+    min-height: 100vh;
+}
 
 h1,
 h2,
