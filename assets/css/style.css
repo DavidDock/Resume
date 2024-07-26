@@ -400,6 +400,10 @@ div#map {
     min-height: 360px;
 }
 
+.thanks {
+    min-height: 40vh;
+}
+
 /* ------------------------Media Queries */
 
 @media(min-width: 992px) {
